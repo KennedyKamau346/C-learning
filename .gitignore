@@ -1,0 +1,21 @@
+# --- Compiled Binaries (Executable Files) ---
+*.out
+*.exe
+*.app
+
+# --- Object Files and Libraries ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# --- Operating System Clutter ---
+.DS_Store
+Thumbs.db
+
+# --- Text Editor / IDE Configs (Optional) ---
+.vscode/
+.idea/
+*.swp

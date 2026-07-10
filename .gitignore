@@ -1,21 +1,12 @@
-# --- Compiled Binaries (Executable Files) ---
-*.out
-*.exe
-*.app
+# Ignore everything by default
+*
 
-# --- Object Files and Libraries ---
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dll
+# Do not ignore directories themselves, so we can see inside them
+!*/
 
-# --- Operating System Clutter ---
-.DS_Store
-Thumbs.db
-
-# --- Text Editor / IDE Configs (Optional) ---
-.vscode/
-.idea/
-*.swp
+# Explicitly ONLY allow C files, headers, Makefiles, and git configuration
+!*.c
+!*.h
+!Makefile
+!.gitignore
+!README.md

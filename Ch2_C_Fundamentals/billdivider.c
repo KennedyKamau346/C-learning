@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	int amount, bill_20, bill_10, bill_5, bill_1, rem;
+	int amount, bill_20, bill_10, bill_5, bill_1;
 
 	printf("Enter a dollar amount: ");
 	scanf("%d", &amount);
